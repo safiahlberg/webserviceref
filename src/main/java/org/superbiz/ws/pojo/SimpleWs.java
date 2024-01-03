@@ -4,8 +4,8 @@ import jakarta.jws.WebMethod;
 import jakarta.jws.WebService;
 
 @WebService
-public interface WS {
+public interface SimpleWs {
 
     @WebMethod
-    String ws();
+    String simpleOperation();
 }

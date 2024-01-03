@@ -5,8 +5,8 @@ import jakarta.jws.WebService;
 import jakarta.transaction.UserTransaction;
 import jakarta.xml.ws.WebServiceContext;
 
-@WebService(endpointInterface = "org.superbiz.ws.pojo.WS")
-public class PojoWS implements WS {
+@WebService(endpointInterface = "org.superbiz.ws.pojo.SimpleWs")
+public class SimpleWsImplementation implements SimpleWs {
 
     @Resource
     private WebServiceContext webServiceContext;
@@ -15,7 +15,7 @@ public class PojoWS implements WS {
     private UserTransaction userTransaction;
 
     @Override
-    public String ws() {
+    public String simpleOperation() {
         return webServiceContext + " & " + userTransaction;
     }
 
