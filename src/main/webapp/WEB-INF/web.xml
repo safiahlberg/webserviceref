@@ -9,7 +9,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>ws</servlet-name>
-        <url-pattern>/*</url-pattern>
+        <url-pattern>/ws/*</url-pattern>
     </servlet-mapping>
 
 </web-app>
