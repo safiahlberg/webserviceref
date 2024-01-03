@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://pojo.ws.superbiz.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="PojoWSService" targetNamespace="http://pojo.ws.superbiz.org/">
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://pojo.ws.superbiz.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="PojoWSService" targetNamespace="http://pojo.ws.superbiz.org/">
   <wsdl:types>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://pojo.ws.superbiz.org/" elementFormDefault="unqualified" targetNamespace="http://pojo.ws.superbiz.org/" version="1.0">
 
@@ -49,7 +48,7 @@
   </wsdl:binding>
   <wsdl:service name="PojoWSService">
     <wsdl:port binding="tns:PojoWSServiceSoapBinding" name="PojoWSPort">
-      <soap:address location="http://localhost:8080/webserviceref/ws"/>
+      <soap:address location="http://localhost:8080/webserviceref/PojoWSService"/>
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
