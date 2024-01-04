@@ -1,10 +1,10 @@
 package com.example.myservice;
 
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-import jakarta.xml.ws.WebServiceRef;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.xml.ws.WebServiceRef;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -23,7 +23,7 @@ public class TestServlet extends HttpServlet {
 
             String message = port.simpleOperation();
 
-            out.println(String.format("Hello World!%nMessage from web service: %s", message));
+            out.println(String.format("Hello World!%nTest Servlet%nMessage from web service: %s%n", message));
         }
     }
 }

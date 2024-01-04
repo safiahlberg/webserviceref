@@ -1,9 +1,9 @@
 package org.superbiz.ws.pojo;
 
-import jakarta.annotation.Resource;
-import jakarta.jws.WebService;
-import jakarta.transaction.UserTransaction;
-import jakarta.xml.ws.WebServiceContext;
+import javax.annotation.Resource;
+import javax.jws.WebService;
+import javax.transaction.UserTransaction;
+import javax.xml.ws.WebServiceContext;
 
 @WebService(endpointInterface = "org.superbiz.ws.pojo.SimpleWs")
 public class SimpleWsImplementation implements SimpleWs {
