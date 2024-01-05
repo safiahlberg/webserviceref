@@ -2,13 +2,13 @@ package com.clientside.action;
 
 public class TestText {
 
-    private String mesage;
+    private String message;
 
-    public String getMesage() {
-        return mesage;
+    public String getMessage() {
+        return message;
     }
 
-    public void setMesage(String mesage) {
-        this.mesage = mesage;
+    public void setMessage(String message) {
+        this.message = message;
     }
 }

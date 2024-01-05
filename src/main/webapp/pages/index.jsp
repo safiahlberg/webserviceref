@@ -11,7 +11,7 @@
 
     <p/>
     <div>
-        <s:property value="testtext.message"/>
+        Test Action: <s:property value="testText.message"/>
     </div>
   </body>
 </html>
