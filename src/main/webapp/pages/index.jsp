@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
   <head>
     <meta charset="UTF-8">
@@ -8,8 +9,9 @@
   <body>
     <h1>Web Service References</h1>
 
+    <p/>
     <div>
-
+        <s:property value="testtext.message"/>
     </div>
   </body>
 </html>

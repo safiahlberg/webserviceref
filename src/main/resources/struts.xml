@@ -5,12 +5,17 @@
 
 <struts>
 
+    <!-- Disable fileupload -->
+    <constant name="struts.multipart.enabled" value="false"/>
+
     <constant name="struts.devMode" value="true" />
 
     <package name="basicstruts2" extends="struts-default">
-        <action name="index">
-            <result>/index.jsp</result>
+        <action name="index" class="com.clientside.action.TestAction" method="execute">
+            <result name="success">/pages/index.jsp</result>
         </action>
+
     </package>
+
 
 </struts>
