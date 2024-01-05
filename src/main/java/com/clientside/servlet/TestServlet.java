@@ -1,4 +1,8 @@
-package com.example.myservice;
+package com.clientside.servlet;
+
+
+import com.clientside.SimpleWs;
+import com.clientside.SimpleWsImplementationService;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
