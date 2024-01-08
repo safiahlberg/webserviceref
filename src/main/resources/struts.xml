@@ -11,8 +11,11 @@
     <constant name="struts.devMode" value="true" />
 
     <package name="basicstruts2" extends="struts-default">
-        <action name="index" class="com.clientside.action.TestAction" method="execute">
+        <action name="index" class="com.clientside.action.SessionAction" method="execute">
             <result name="success">/pages/index.jsp</result>
+        </action>
+        <action name="message" class="com.clientside.action.TestAction" method="execute">
+            <result name="success">/pages/message.jsp</result>
         </action>
 
     </package>

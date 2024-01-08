@@ -3,13 +3,15 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Basic Struts 2 Application - Session</title>
+  <meta charset="UTF-8">
+  <title>Basic Struts 2 Application - Web Service Reference</title>
 </head>
 <body>
-<h1>Session Page</h1>
+<h1>Web Service References</h1>
 
-<p><a href="<s:url action='pages/message'/>">Web Service Reference Page</a></p>
-
+<p/>
+<div>
+  Test Action: <s:property value="testText.message"/>
+</div>
 </body>
 </html>
