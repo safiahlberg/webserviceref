@@ -12,7 +12,7 @@ import javax.xml.ws.WebServiceRef;
 public class ApplicationContextListener implements ServletContextListener {
 
 
-    @WebServiceRef(wsdlLocation = "http://localhost:8080/webserviceref/SimpleWsImplementationService?wsdl")
+    @WebServiceRef(wsdlLocation = "/META-INF/wsdl/testwebservice.wsdl")
     private SimpleWsImplementationService simpleWsImplementationService;
 
     @Override

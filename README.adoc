@@ -1,0 +1,8 @@
+= Project to test the @WebServiceRef annotation in different contexts
+
+== The SOAP Web Service
+http://localhost:8080/webserviceref/SimpleWsImplementationService?wsdl
+
+== Test points
+* Servlet: http://localhost:8080/webserviceref/ts
+* JSP page: http://localhost:8080/webserviceref/pages/index
